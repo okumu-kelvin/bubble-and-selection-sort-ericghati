@@ -24,9 +24,8 @@ def bubble_sort(unsorted_list):
     return unsorted_list 
 
 #Testing with a sample list
-unsorted_list = [8,5,6]   
-bubble_sort(unsorted_list)
-print(f"Sorted list: {unsorted_list}")
+print(f"Sorted list: {bubble_sort([8,5,6])}")
+
 
 
 
